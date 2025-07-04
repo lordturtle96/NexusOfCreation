@@ -37,15 +37,41 @@
     }
     section {
       padding: 2em;
-      text-align: center;
     }
-    .placeholder {
+    .product {
       background-color: #001f1f;
-      padding: 2em;
-      font-size: 1.2em;
-      color: #88bfbf;
-      border: 2px dashed #004f4f;
-      margin-top: 2em;
+      border: 1px solid #004f4f;
+      padding: 1em;
+      margin-bottom: 2em;
+      border-radius: 8px;
+    }
+    .product img {
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      margin: auto;
+      border-radius: 12px;
+    }
+    .product h3 {
+      text-align: center;
+      color: #6fffb0;
+    }
+    .product p {
+      text-align: center;
+      color: #c0f5dc;
+    }
+    .button {
+      background-color: #006666;
+      color: white;
+      padding: 0.75em 1.5em;
+      border: none;
+      margin-top: 1em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover {
+      background-color: #00a6a6;
     }
     .footer {
       text-align: center;
@@ -53,19 +79,6 @@
       background-color: #001f1f;
       font-size: 0.9em;
       color: #88bfbf;
-    }
-    .button {
-      background-color: #006666;
-      color: white;
-      padding: 0.75em 1.5em;
-      border: none;
-      margin-top: 2em;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .button:hover {
-      background-color: #00a6a6;
     }
   </style>
 </head>
@@ -78,15 +91,16 @@
     <h1>The Crucible Exchange</h1>
     <p>Marketplace of minds – forge, trade, and evolve</p>
   </header>  <section>
-    <p class="placeholder">
-      🛒 Weaving in progress...<br />
-      This is where your sensory packs, books, D&D campaigns, and neurodivergent collabs will be offered.<br />
-      A fusion of product and purpose.
-    </p>
-    <a class="button" href="https://www.paypal.me/GeorgeTurtle884" target="_blank">Support Neuro-Nexus</a>
+    <div class="product">
+      <img src="images/bright-nexus-preview.png" alt="Bright Nexus Sticker Pack">
+      <h3>Neuro-Nexus Sticker Pack – Bright Nexus</h3>
+      <p>8 cosmic Neuro-Nexus designs in a vibrant, clean, and sensory-safe theme. Includes a digital PDF for print-at-home use. Stickers include "Rewrite the Ride", "Neuro-Nexus", and names of core platform pages.</p>
+      <div style="text-align:center;">
+        <a class="button" href="https://paypal.me/NeuroNexusForge/4" target="_blank">Buy Digital Pack – £4</a>
+      </div>
+    </div>
   </section>  <div class="footer">
     © 2025 Neuro-Nexus. Designed by Fritz. Creation is currency.
   </div>
 </body>
-</html>
 </html>
